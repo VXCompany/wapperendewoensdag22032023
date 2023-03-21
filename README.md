@@ -1,1 +1,3 @@
-# wapperendewoensdag22032023
+# Wapperende Woensdag - Maart 2023
+
+# JAVA vs C#
