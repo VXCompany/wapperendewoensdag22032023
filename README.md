@@ -1,27 +1,32 @@
 # Wapperende Woensdag - Maart 2023
+## Mini Laundry Reservation Kata - JAVA vs .NET
+We gaan vandaag volledig uit onze comfortzone en de rollen eens omdraaien. Ben je een .NET developer, dan ga je vandaag in JAVA 
+aan de slag en vice versa. Klinkt dat als een leuke uitdaging, hopelijk wel :)
 
+We hebben een hopelijk eenvoudige opdracht bedacht op basis van de laundry reservation kata.
 
-# Mini Laundry Reservation Kata
-
-## Reservation API
-Create an API that:
+### Reservation API
+Maak een API die:
  
-- Takes a reservation date and time, phone number, e-mailaddress and validates the input 
-- Locks and selects an available laundry machine from the Machine API
-- Saves the reservation 
-- Outputs a confirmation message and a reservation number
+- Een datum, tijd, telefoonnummer en e-mailadres accepteert.
+- De inpit valideert
+- Een beschikbare wasmachine uit de wasmachine API ophaalt
+- Een reservering aanmaakt met de input + reserveringsnummer en wasmachinenummer
+- De reservering output als JSON
 
-## Machine API
-Create an API that:
+### Machine API
+Maak een API die
  
-- Takes a timeslot (date and time)
-- Selects an available machine for that timeslot a set of machines
-- Locks that machine and saves the new state to the Cosmos DB
-- Returns the ID
+- Een timeslot accepteert (datum / tijd)
+- Een beschikbare machine uit een lijst met machines selecteert
+- Die machine als gereserveerd kenmerkt
+- De gegevens van de machine als resultaat teruggeeft.
 
-## Client
-Create a console client to test your reservation system.
+### Client
+Maak een eenvoudige client om de APIs te testen
 
 # Optional
  
- - Use a cosmos db to persist your reservation
+ - Gebruik een Cosmos DB om de reserveringen en machines op te slaan
+ - Deploy je services naar Azure
+ 
