@@ -30,7 +30,26 @@ Maak een eenvoudige client om de APIs te testen
  - Gebruik een Cosmos DB om de reserveringen en machines op te slaan
  - Deploy je services naar Azure
  
- # Resources:
- Readme JAVA: https://github.com/VXCompany/wapperendewoensdag22032023/blob/main/src/java/readme.md
+  Readme JAVA: https://github.com/VXCompany/wapperendewoensdag22032023/blob/main/src/java/readme.md
  Readme .NET: https://github.com/VXCompany/wapperendewoensdag22032023/blob/main/src/net/readme.md
  
+ # Benodigdheden
+- VSCode of de codespace op github
+
+Volg de volgende stappen om de codespace te gebruiken:
+
+1. Ga naar https://github.com/VXCompany/wapperendewoensdag22032023 en click de groene "code" knop. 
+
+[code dialog](https://snipboard.io/yohBY1.jpg)
+
+2. Click op "new with options", een nieuwe pagina opent
+
+[codespace options](https://snipboard.io/7YPwlG.jpg)
+
+3. Kies .NET of JAVA
+4. Create codespace
+5. Een browser based instantie van VSCode wordt gestart met de benodigde toolchain.
+
+# Resources
+.NET: https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-7.0&tabs=visual-studio-code
+JAVA: 
