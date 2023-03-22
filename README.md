@@ -52,4 +52,4 @@ Volg de volgende stappen om de codespace te gebruiken:
 
 # Resources
 .NET: https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-7.0&tabs=visual-studio-code
-JAVA: 
+JAVA: https://spring.io/guides/gs/spring-boot/
