@@ -25,8 +25,12 @@ Maak een API die
 ### Client
 Maak een eenvoudige client om de APIs te testen
 
-# Optional
+# Optioneel
  
  - Gebruik een Cosmos DB om de reserveringen en machines op te slaan
  - Deploy je services naar Azure
+ 
+ # Resources:
+ Readme JAVA: https://github.com/VXCompany/wapperendewoensdag22032023/blob/main/src/java/readme.md
+ Readme .NET: https://github.com/VXCompany/wapperendewoensdag22032023/blob/main/src/net/readme.md
  
